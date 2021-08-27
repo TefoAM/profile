@@ -84,7 +84,14 @@ h6{ font-size: 16px; }
     align-content: center;
     
     min-height: 10em;   
+    
 }
+
+/* #hi{
+    box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+} */
 
 .intro-wrapper{
     background-color: var(--secondaryColor);
@@ -310,22 +317,21 @@ h6{ font-size: 16px; }
 
 #icon-wrapper{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    
 }
 
 #Li, #ig, #git{
     width: 40px;
     height: 40px;
-    padding-left: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 50px;
 }
 
-#git{
-    color: var(--mainText);
-}
 
 #Li:hover, #ig:hover, #git:hover{
-    width: 60px;
-    height: 60px;
+    font-size: 90px;
 }
 
 /* ------------------------------------------- */
